@@ -60,3 +60,8 @@ int main()
      
     return 0;
 }
+
+/*
+The struct keyword. It can also be used in C++ to create classes.
+The only difference with the class keyword is that, by default, methods and attributes are public instead of private.
+*/
