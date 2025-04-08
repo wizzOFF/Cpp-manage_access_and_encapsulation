@@ -6,6 +6,9 @@ using namespace std;
  
 class Personnage
 {
+    // Tout ce qui suit est public (accessible depuis l'extérieur)
+    public:
+
     // Méthodes
     void recevoirDegats(int nbDegats)
     {
@@ -31,6 +34,9 @@ class Personnage
     {
  
     }
+ 
+    // Tout ce qui suit est prive (inaccessible depuis l'extérieur)
+    private:
 
     // Attributs
     int m_vie;
