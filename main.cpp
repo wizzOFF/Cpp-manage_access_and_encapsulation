@@ -11,5 +11,11 @@ int main()
     Personnage david, goliath;
     */
 
+    Personnage david, goliath;
+    /*
+    Personnage david, goliath("Epee aiguisee", 20);
+    Si l'on veux donner une meilleur arme a goliath
+    */ 
+    
     return 0;
 }
