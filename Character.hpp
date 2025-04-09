@@ -9,6 +9,7 @@ class Personnage
     public:
  
     Personnage(std::string nomArme, int degatsArme); //Constructeur
+    Personnage(Personnage const& autre);
     void recevoirDegats(int nbDegats);
     void attaquer(Personnage &cible);
     void boirePotionDeVie(int quantitePotion);
