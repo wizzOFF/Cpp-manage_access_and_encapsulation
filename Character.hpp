@@ -15,7 +15,8 @@ class Personnage
     void boirePotionDeVie(int quantitePotion);
     void changerArme(std::string nomNouvelleArme, int degatsNouvelleArme);
     bool estVivant();
- 
+
+    ~Personnage();
  
     private:
  
