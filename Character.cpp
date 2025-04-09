@@ -36,3 +36,8 @@ Personnage::~Personnage()
     En temps normal, un destructeur fait souvent des delete et quelques
     autres vérifications si nécessaire avant la destruction de l'objet. */
 }
+
+bool Personnage::estVivant() const
+{
+    return m_vie > 0;
+}

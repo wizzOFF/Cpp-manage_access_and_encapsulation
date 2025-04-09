@@ -17,6 +17,10 @@ class Personnage
     bool estVivant();
 
     ~Personnage();
+    //Prototype de la méthode (dans le .hpp)
+    
+    bool Personnage::estVivant() const
+    //Prototype de la méthode (dans le .hpp)
  
     private:
  
