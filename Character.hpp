@@ -29,8 +29,9 @@ class Personnage
  
     int m_vie;
     int m_mana;
-    std::string m_nomArme;
-    int m_degatsArme;
+    //std::string m_nomArme;
+    //int m_degatsArme;
+    Arme m_arme;
 };
 
 #endif
