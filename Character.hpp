@@ -3,6 +3,8 @@
 #define DEF_PERSONNAGE
 
 #include <string>
+
+#include <Weapon.hpp>
  
 class Personnage
 {
@@ -15,6 +17,7 @@ class Personnage
     void boirePotionDeVie(int quantitePotion);
     void changerArme(std::string nomNouvelleArme, int degatsNouvelleArme);
     bool estVivant();
+    void afficherEtat() const;
 
     ~Personnage();
     //Prototype de la méthode (dans le .hpp)
